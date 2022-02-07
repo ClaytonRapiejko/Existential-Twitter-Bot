@@ -8,8 +8,8 @@ const dbRef = admin.firestore().doc('tokens/demo');
 // Twitter API init
 const TwitterApi = require('twitter-api-v2').default;
 const twitterClient = new TwitterApi({
-  clientId: 'Y05UNEY4ZE9RaGxkblhpeG9wQ286MTpjaQ',
-  clientSecret: 'hZjgeZsE9dcb5IUKGPB2Ki3CtObQJ2eVplE_QNTkFq0XaDs47B',
+  clientId: '',
+  clientSecret: '',
 });
 
 const callbackURL = 'https://twitter202020.firebaseapp.com/__/auth/handler';
@@ -17,8 +17,8 @@ const callbackURL = 'https://twitter202020.firebaseapp.com/__/auth/handler';
 // OpenAI API init
 const { Configuration, OpenAIApi } = require('openai');
 const configuration = new Configuration({
-  organization: 'org-qRRk7psQnpgpad2f1D9dbjuw',
-  apiKey: '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',
+  organization: '',
+  apiKey: '',
 });
 const openai = new OpenAIApi(configuration);
 
